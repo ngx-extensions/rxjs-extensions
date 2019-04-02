@@ -4,6 +4,11 @@
   "description": "Utility functions and operators for rxjs",
   "main": "index.js",
   "scripts": {
+    "build": "bash ./scripts/build.sh",
+    "lint:check": "tslint {src,test}/**/*.ts",
+    "lint:fix": "tslint --fix {src,test}/**/*.ts",
+    "format:check": "prettier -c {src,test,config,scripts}/**/*",
+    "format:fix": "prettier --write {src,test,config,scripts}/**/*",
     "changelog:bump": "conventional-changelog -i CHANGELOG.md -s -p angular",
     "changelog:next": "conventional-changelog -i CHANGELOG.md -s -u angular"
   },
@@ -38,8 +43,10 @@
     "conventional-changelog-cli": "^2.0.12",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
+    "markdownlint-cli": "^0.14.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.16.4",
+    "rollup": "^1.8.0",
     "tslint": "^5.15.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.0.1"
