@@ -1,0 +1,52 @@
+{
+  "name": "@ngx-extensions/rxjs-extensions",
+  "version": "0.0.0",
+  "description": "Utility functions and operators for rxjs",
+  "main": "index.js",
+  "scripts": {
+    "changelog:bump": "conventional-changelog -i CHANGELOG.md -s -p angular",
+    "changelog:next": "conventional-changelog -i CHANGELOG.md -s -u angular"
+  },
+  "engines": {
+    "npm": ">=2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngx-extensions/rxjs-extensions.git"
+  },
+  "keywords": [
+    "Rx",
+    "RxJS",
+    "ReactiveX",
+    "ReactiveExtensions",
+    "Streams",
+    "Observables",
+    "Observable"
+  ],
+  "author": {
+    "name": "José Toledo Navarro",
+    "email": "jotatoledon@gmail.com",
+    "url": "https://github.com/jotatoledo"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "conventional-changelog-cli": "^2.0.12",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.16.4",
+    "tslint": "^5.15.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.0.1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngx-extensions/rxjs-extensions/issues"
+  },
+  "homepage": "https://github.com/ngx-extensions/rxjs-extensions#readme"
+}
